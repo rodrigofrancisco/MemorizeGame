@@ -20,7 +20,7 @@ struct EmojiMemoryGameView: View {
         .padding(.horizontal)
     }
     
-    private funct drawCardView(for card: MemoryGame.Card) -> some View {
+    @ViewBuilder private func drawCardView(for card: EmojiMemoryGame.Card) -> some View {
         if card.isMatched && !card.isFaceUp {
             Rectangle().opacity(0)
         } else {
