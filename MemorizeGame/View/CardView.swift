@@ -12,10 +12,10 @@ struct CardView: View {
     let card: EmojiMemoryGame.Card
     
     private struct Constants {
-        static let cornerRadius: CGFloat = 20
+        static let cornerRadius: CGFloat = 10
         static let opacity: CGFloat = 0
         static let lineWidth: CGFloat = 3
-        static let fontScale: CGFloat = 0.8
+        static let fontScale: CGFloat = 0.75
     }
     
     var body: some View {
