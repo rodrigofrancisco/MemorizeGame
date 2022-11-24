@@ -11,28 +11,16 @@ struct EmojiMemoryGameView: View {
     
     @ObservedObject var viewModel: EmojiMemoryGame
     
-    @State var emojiCount = 4
-    
     var body: some View {
-        VStack {
-            ScrollView {
-                LazyVGrid(columns: [GridItem(.adaptive(minimum: 65))]) {
-                    drawCards
-                }
-            }
-            .foregroundColor(.red)
-        }
-        .padding(.horizontal)
-    }
-    
-    var drawCards: some View {
-        ForEach(viewModel.cards) { card in
+        AspectVGrid(items: viewModel.cards, aspectRatio: 2/3, content: { card in
             CardView(card: card)
-                .aspectRatio(2/3, contentMode: .fit)
+                .padding(4)
                 .onTapGesture {
                     viewModel.choose(card)
                 }
-        }
+        })
+        .foregroundColor(.red)
+        .padding(.horizontal)
     }
 }
 
