@@ -14,7 +14,6 @@ struct EmojiMemoryGameView: View {
     var body: some View {
         AspectVGrid(items: viewModel.cards, aspectRatio: 2/3) { card in
             drawCardView(for: card)
-
         }
         .foregroundColor(.red)
         .padding(.horizontal)

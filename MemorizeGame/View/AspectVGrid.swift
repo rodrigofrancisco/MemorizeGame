@@ -19,7 +19,6 @@ struct AspectVGrid<Item, ItemView>: View where ItemView: View, Item: Identifiabl
         self.content = content
     }
     
-    
     var body: some View {
         GeometryReader { geometry in
             VStack {
@@ -32,7 +31,6 @@ struct AspectVGrid<Item, ItemView>: View where ItemView: View, Item: Identifiabl
             }
             Spacer(minLength: 0)
         }
-
     }
     
     private func adaptiveGridItem(width: CGFloat) -> GridItem {

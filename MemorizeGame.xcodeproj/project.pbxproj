@@ -17,6 +17,8 @@
 		03484ACD292FF17600AAE2AA /* Array+OneAndOnly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03484ACC292FF17600AAE2AA /* Array+OneAndOnly.swift */; };
 		03484ACF293020EC00AAE2AA /* AspectVGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03484ACE293020EC00AAE2AA /* AspectVGrid.swift */; };
 		03484AD129302C1900AAE2AA /* Pie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03484AD029302C1900AAE2AA /* Pie.swift */; };
+		03A5CC8D293162B1003FBC31 /* Cardify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A5CC8C293162B1003FBC31 /* Cardify.swift */; };
+		03A5CC8F29316486003FBC31 /* View+Cardify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A5CC8E29316486003FBC31 /* View+Cardify.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		03484ACC292FF17600AAE2AA /* Array+OneAndOnly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+OneAndOnly.swift"; sourceTree = "<group>"; };
 		03484ACE293020EC00AAE2AA /* AspectVGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AspectVGrid.swift; sourceTree = "<group>"; };
 		03484AD029302C1900AAE2AA /* Pie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pie.swift; sourceTree = "<group>"; };
+		03A5CC8C293162B1003FBC31 /* Cardify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cardify.swift; sourceTree = "<group>"; };
+		03A5CC8E29316486003FBC31 /* View+Cardify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Cardify.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,7 @@
 				03484AC9292FEC5A00AAE2AA /* CardView.swift */,
 				03484ACE293020EC00AAE2AA /* AspectVGrid.swift */,
 				03484AD029302C1900AAE2AA /* Pie.swift */,
+				03A5CC8C293162B1003FBC31 /* Cardify.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -113,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				03484ACC292FF17600AAE2AA /* Array+OneAndOnly.swift */,
+				03A5CC8E29316486003FBC31 /* View+Cardify.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -190,6 +196,8 @@
 				03484AC3292FD51300AAE2AA /* MemoryGame.swift in Sources */,
 				03484AB7292FD0F700AAE2AA /* EmojiMemoryGameView.swift in Sources */,
 				03484AD129302C1900AAE2AA /* Pie.swift in Sources */,
+				03A5CC8F29316486003FBC31 /* View+Cardify.swift in Sources */,
+				03A5CC8D293162B1003FBC31 /* Cardify.swift in Sources */,
 				03484ACF293020EC00AAE2AA /* AspectVGrid.swift in Sources */,
 				03484AB5292FD0F700AAE2AA /* MemorizeGameApp.swift in Sources */,
 				03484AC6292FD64500AAE2AA /* EmojiMemoryGame.swift in Sources */,
