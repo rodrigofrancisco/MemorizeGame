@@ -17,6 +17,7 @@
 		03484ACD292FF17600AAE2AA /* Array+OneAndOnly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03484ACC292FF17600AAE2AA /* Array+OneAndOnly.swift */; };
 		03484ACF293020EC00AAE2AA /* AspectVGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03484ACE293020EC00AAE2AA /* AspectVGrid.swift */; };
 		03484AD129302C1900AAE2AA /* Pie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03484AD029302C1900AAE2AA /* Pie.swift */; };
+		035D81FF2937C58700F64D89 /* MemoryGame+Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035D81FE2937C58700F64D89 /* MemoryGame+Card.swift */; };
 		03A5CC8D293162B1003FBC31 /* Cardify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A5CC8C293162B1003FBC31 /* Cardify.swift */; };
 		03A5CC8F29316486003FBC31 /* View+Cardify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A5CC8E29316486003FBC31 /* View+Cardify.swift */; };
 /* End PBXBuildFile section */
@@ -33,6 +34,7 @@
 		03484ACC292FF17600AAE2AA /* Array+OneAndOnly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+OneAndOnly.swift"; sourceTree = "<group>"; };
 		03484ACE293020EC00AAE2AA /* AspectVGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AspectVGrid.swift; sourceTree = "<group>"; };
 		03484AD029302C1900AAE2AA /* Pie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pie.swift; sourceTree = "<group>"; };
+		035D81FE2937C58700F64D89 /* MemoryGame+Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MemoryGame+Card.swift"; sourceTree = "<group>"; };
 		03A5CC8C293162B1003FBC31 /* Cardify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cardify.swift; sourceTree = "<group>"; };
 		03A5CC8E29316486003FBC31 /* View+Cardify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Cardify.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -90,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				03484AC2292FD51300AAE2AA /* MemoryGame.swift */,
+				035D81FE2937C58700F64D89 /* MemoryGame+Card.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 			files = (
 				03484AC3292FD51300AAE2AA /* MemoryGame.swift in Sources */,
 				03484AB7292FD0F700AAE2AA /* EmojiMemoryGameView.swift in Sources */,
+				035D81FF2937C58700F64D89 /* MemoryGame+Card.swift in Sources */,
 				03484AD129302C1900AAE2AA /* Pie.swift in Sources */,
 				03A5CC8F29316486003FBC31 /* View+Cardify.swift in Sources */,
 				03A5CC8D293162B1003FBC31 /* Cardify.swift in Sources */,

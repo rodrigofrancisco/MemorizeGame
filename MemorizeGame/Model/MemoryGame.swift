@@ -13,14 +13,6 @@ struct MemoryGame<CardContent> where CardContent: Equatable {
         set { cards.indices.forEach { cards[$0].isFaceUp = ($0 == newValue) } }
     }
     
-    struct Card: Identifiable {
-        var isFaceUp = false
-        var isMatched = false
-        let content: CardContent
-        
-        let id: Int
-    }
-    
     init(numberOfPairOfCards: Int, createCardContent: (Int) -> CardContent) {
         self.cards = []
         for pairIndex in 0..<numberOfPairOfCards {

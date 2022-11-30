@@ -24,10 +24,16 @@ struct EmojiMemoryGameView: View {
     @Namespace private var dealingNamespace
     
     var body: some View {
-        VStack {
-            gameBody
+        ZStack(alignment: .bottom) {
+            VStack {
+                gameBody
+                HStack {
+                    restart
+                    Spacer()
+                    shuffle
+                }
+            }
             deckBody
-            shuffle
         }
         .padding()
     }
@@ -45,6 +51,15 @@ struct EmojiMemoryGameView: View {
         Button("Shuffle") {
             withAnimation(.easeInOut(duration: 5)) {
                 viewModel.shuffle()
+            }
+        }
+    }
+    
+    var restart: some View {
+        Button("Restart") {
+            withAnimation {
+                dealt = []
+                viewModel.restart()
             }
         }
     }
